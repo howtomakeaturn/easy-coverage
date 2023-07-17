@@ -92,7 +92,7 @@ If you want to ignore some methods, you can use
 ```
     $coverage->alwaysIgnoreMethods([
         '__construct',
-]);
+    ]);
 ```
 
 If you want to ignore some classes, you can use
