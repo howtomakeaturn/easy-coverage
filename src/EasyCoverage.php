@@ -56,6 +56,10 @@ class EasyCoverage
     {
         $methods = $this->getIncludedMethods();
 
+        if (count($methods) === 0) {
+            throw new Exceptions\MethodsNotFoundException("Didn't find any methods to scan. You might have a typo when you includeNamespaces()");
+        }
+
         $tests = $this->getTestedMethods();
 
         $missing = [];
