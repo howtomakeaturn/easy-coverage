@@ -3,6 +3,7 @@
     "description": "A simple package to encourage/force developers to write tests.",
     "type": "library",
     "require": {
+        "php": ">=8.0",
         "haydenpierce/class-finder": "^0.5.3"
     },
     "require-dev": {
