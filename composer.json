@@ -1,0 +1,23 @@
+{
+    "name": "howtomakeaturn/easy-coverage",
+    "description": "A simple package to encourage/force developers to write tests.",
+    "type": "library",
+    "require": {
+        "haydenpierce/class-finder": "^0.5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Howtomakeaturn\\EasyCoverage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "howtomakeaturn",
+            "email": "howtomakeaturn@hotmail.com"
+        }
+    ]
+}
