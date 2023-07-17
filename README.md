@@ -125,7 +125,7 @@ If you want to ignore certain methods in classes, you can use
 
 2. EasyCoverage finds out all the class methods you labeled with `Howtomakeaturn\EasyCoverage\Target` attribute under the `Tests` namespace.
 
-3. EasyCoverage compares two array values above and return return the result.
+3. EasyCoverage compares two array values from above and then return the result.
 
 # License
 
