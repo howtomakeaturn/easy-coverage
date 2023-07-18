@@ -22,7 +22,7 @@ Let's say you think `App\Services` namespace is very important, and you want to 
 
 Here is the basic example:
 
-```
+```php
 <?php
 
 namespace Tests\Coverage;
@@ -59,7 +59,7 @@ class CoverageTest extends TestCase
 
 Anytime you create a new test for the related methods, use `PHP 8 Attribute Syntax` to label them:
 
-```
+```php
 <?php
 
 namespace Tests\Unit;
@@ -89,7 +89,7 @@ Anyone who creates new public methods in any classes under `App\Services` have t
 
 If you want to ignore some methods, you can use
 
-```
+```php
     $coverage->alwaysIgnoreMethods([
         '__construct',
     ]);
@@ -97,7 +97,7 @@ If you want to ignore some methods, you can use
 
 If you want to ignore some classes, you can use
 
-```
+```php
     $coverage->ignoreClasses([
         'App\Services\LargeLegacyTask',
     ]);
@@ -105,7 +105,7 @@ If you want to ignore some classes, you can use
 
 If you want to ignore certain methods in classes, you can use
 
-```
+```php
     $coverage->ignoreClassMethods([
         'App\Services\SimpleTaskTwo@doSomething',
     ]);
